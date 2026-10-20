@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="rps-redo.css">
+  </head>
+  <body>
+    <div></div>
+    <div class="content-container">
+      <div class="content">
+        <div class="title-container">
+          <h1 class="title">
+            Rock Paper Scissors
+          </h1>
+        </div>
+
+        <div class="container">
+          <div class="button-container">
+            <button class="move-button js-rock-button">
+              <img src="/media/rock.svg" class="
+              move-icon">
+            </button>
+            <button class="move-button js-paper-button"">
+              <img src="/media/paper.svg" class="
+              move-icon">
+            </button>
+            <button class="move-button js-scissors-button">
+              <img src="/media/scissors.svg" class="
+              move-icon">
+            </button>
+            <div class="result-container">
+              <div class="moves-container">
+                <div class="move-display">
+                  <div class="move move-player">
+                    <p>Your move</p>
+                    <p class="js-moves-player"></p>
+                  </div>
+                  <div class="move">
+                    <p>Computer</p>
+                    <p class="js-moves-computer">
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <h1 class="js-result">
+              </h1>
+              <p class="js-score score"></p>
+              <div class="button-container">
+                <button class="reset-button js-reset-button">
+                  Reset Score
+                </button>
+                <button class="reset-button js-auto-play-button">
+                  Auto Play
+                </button>
+              </div>
+              <div class="js-reset-display"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div></div>
+
+    <script src="rps-redo.js">
+    </script>
+  </body>
+</html>
