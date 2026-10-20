@@ -119,12 +119,12 @@ function playGame(playerMove) {
 
   document.querySelector('.js-moves-player').innerHTML
     = `
-    <img src="/media/${playerMove}.svg" class="move-icon">
+    <img src="media/${playerMove}.svg" class="move-icon">
     `;
 
     document.querySelector('.js-moves-computer').innerHTML
     = `
-    <img src="/media/${computerMove}.svg" class="move-icon">
+    <img src="media/${computerMove}.svg" class="move-icon">
     `;
 }
 
